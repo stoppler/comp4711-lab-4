@@ -41,4 +41,19 @@ class first extends Application
             $this->render();
         }
         
+        public function gimme($id)
+        {
+            //load data from model
+            $source = $this->quotes->get($id);
+            //get quote
+            $this->data['what'] = $source['what'];
+            $this->data['who'] = $source['who'];
+            $this->data['mug'] = $source['mug'];
+            //load view
+            $this->data['pagebody'] = 'justone';
+            $this->render();
+        }
+        
+        
+        
 }
