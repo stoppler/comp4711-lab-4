@@ -29,5 +29,8 @@ Release Date: Feb 4, 2017
   - Fixed issue #4 by:
         - added method 'zzz' to 'first.php'                              (mate)
         - added new routing rule to 'routes.php'                         (mate)
+  - Fixed issue #6 by:
+        - added method 'gimme' to 'first.php'                            (mate)
+        - added new routing rule to 'routes.php'                         (mate)
   
 
