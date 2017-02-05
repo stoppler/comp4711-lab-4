@@ -11,5 +11,16 @@ Release Date: Feb 1, 2017
 
 ## Updated Components
 
--	Changelog.md 	(Captain)
+  - Changelog.md 	(Captain)
   - Added changelog.md file and formatted it
+  
+## *Version 1.1*
+
+Release Date: Feb 4, 2017
+
+## Updated Components
+
+  - Fixed Issue #3 by:
+	- Created directory: 'last' 		(Captain)
+	- added controller: 'Welcome.php'	(Captain)
+  
