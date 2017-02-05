@@ -19,8 +19,10 @@ class first extends Application
             $source = $this->quotes->get(1);
             //get quote
             $this->data['what'] = $source['what'];
+            $this->data['who'] = $source['who'];
+            $this->data['mug'] = $source['mug'];
             //load view
-            $this->data['pagebody'] = 'first';
+            $this->data['pagebody'] = 'justone';
             $this->render();
                 
 	}
