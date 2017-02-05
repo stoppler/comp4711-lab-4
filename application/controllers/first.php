@@ -28,4 +28,17 @@ class first extends Application
 	}
         
         
+        public function zzz()
+        {
+            //load data from model
+            $source = $this->quotes->get(1);
+            //get quote
+            $this->data['what'] = $source['what'];
+            $this->data['who'] = $source['who'];
+            $this->data['mug'] = $source['mug'];
+            //load view
+            $this->data['pagebody'] = 'justone';
+            $this->render();
+        }
+        
 }

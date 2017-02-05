@@ -23,9 +23,11 @@ Release Date: Feb 4, 2017
   - Fixed Issue #3 by:
 	- Created directory: 'last' 		(Captain)
 	- added controller: 'Welcome.php'	(Captain)
-
   - Fixed issue #2 by:
-        - created controller: 'first.php'        (mate)
+        - created controller: 'first.php'                                (mate)
         - retrieved data from model and setup routing to 'justone.php'   (mate)
+  - Fixed issue #4 by:
+        - added method 'zzz' to 'first.php'                              (mate)
+        - added new routing rule to 'routes.php'                         (mate)
   
->>>>>>> upstream/develop
+
