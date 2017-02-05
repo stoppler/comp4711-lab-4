@@ -62,4 +62,5 @@ readfile($source); // dish it
 die(); // and we don't have to go any further
 };
 $route['404_override'] = '';
+$route['^[a-zA-Z]{4}/bingo'] = 'wise';
 $route['translate_uri_dashes'] = FALSE;

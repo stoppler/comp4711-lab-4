@@ -27,17 +27,12 @@ Release Date: Feb 4, 2017
 	- created controller: 'first.php'                                (mate)
 	- retrieved data from model and setup routing to 'justone.php'   (mate)
   - Fixed issue #4 by:
-<<<<<<< HEAD
         - added method 'zzz' to 'first.php'                              (mate)
         - added new routing rule to 'routes.php'                         (mate)
   - Fixed issue #6 by:
         - added method 'gimme' to 'first.php'                            (mate)
         - added new routing rule to 'routes.php'                         (mate)
-=======
-	- added method 'zzz' to 'first.php'                              (mate)
-	- added new routing rule to 'routes.php'                         (mate)
->>>>>>> upstream/develop
-  
+
 ## *Version 1.2*
 
 Release Date: Feb 5, 2017
@@ -51,4 +46,8 @@ Release Date: Feb 5, 2017
 	- Created directory: 'data' same folder level as 'public'	(Captain)
 	- Added image: 'surprise.jpg' in 'data' folder				(Captain)
 	- Added new routing rulse to 'routes.php'					(Captain)
+	- Added function: 'shucks' in 'Welcome.php'			(Captain)
+  - Fixed issue #9 by:
+        - created 'wise.php' controller                                 (mate)
+        - added new routing rule using regex in 'routes.php'            (mate)
   
