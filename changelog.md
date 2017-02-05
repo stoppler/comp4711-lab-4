@@ -13,5 +13,5 @@ Release Date: Feb 1, 2017
 
 -	Changelog.md 	(Captain)
 - Added changelog.md file and formatted it
-- added first.php controller and view, fixes issue with 'first' link in nav bar not working correctly (Ryan Stoppler)
+- added first.php controller set up routing to work with justone.php and get appropriate data from model(Ryan Stoppler)
 
