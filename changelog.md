@@ -22,12 +22,21 @@ Release Date: Feb 4, 2017
 
   - Fixed Issue #3 by:
 	- Created directory: 'last' 		(Captain)
-	- added controller: 'Welcome.php'	(Captain)
+	- Added controller: 'Welcome.php'	(Captain)
   - Fixed issue #2 by:
-        - created controller: 'first.php'                                (mate)
-        - retrieved data from model and setup routing to 'justone.php'   (mate)
+	- created controller: 'first.php'                                (mate)
+	- retrieved data from model and setup routing to 'justone.php'   (mate)
   - Fixed issue #4 by:
-        - added method 'zzz' to 'first.php'                              (mate)
-        - added new routing rule to 'routes.php'                         (mate)
+	- added method 'zzz' to 'first.php'                              (mate)
+	- added new routing rule to 'routes.php'                         (mate)
   
+## *Version 1.2*
 
+Release Date: Feb 5, 2017
+
+## Updated Components
+
+  - Fixed Issue #5 by:
+	- Added new routing rule: 'lock/em/up' -> 'welcome/shucks'	(Captain)
+	- Added function: 'shucks' in 'Welcome.php'					(Captain)
+  
