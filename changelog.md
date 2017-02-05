@@ -11,7 +11,21 @@ Release Date: Feb 1, 2017
 
 ## Updated Components
 
--	Changelog.md 	(Captain)
-- Added changelog.md file and formatted it
-- added first.php controller set up routing to work with justone.php and get appropriate data from model(Ryan Stoppler)
+  - Changelog.md 	(Captain)
+  - Added changelog.md file and formatted it
+  
+## *Version 1.1*
 
+Release Date: Feb 4, 2017
+
+## Updated Components
+
+  - Fixed Issue #3 by:
+	- Created directory: 'last' 		(Captain)
+	- added controller: 'Welcome.php'	(Captain)
+
+  - Fixed issue #2 by:
+        - created controller: 'first.php'        (mate)
+        - retrieved data from model and setup routing to 'justone.php'   (mate)
+  
+>>>>>>> upstream/develop
