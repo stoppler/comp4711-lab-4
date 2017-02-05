@@ -1,0 +1,29 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class first extends Application
+{
+
+        function __construct()
+	{
+		parent::__construct();
+	}
+	/**
+	 * Homepage for our app
+	 */
+	public function index()
+	{
+		
+            //load data from model
+            $source = $this->quotes->get(1);
+            //get quote
+            $this->data['what'] = $source['what'];
+            //load view
+            $this->data['pagebody'] = 'first';
+            $this->render();
+                
+	}
+        
+        
+}

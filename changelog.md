@@ -12,4 +12,6 @@ Release Date: Feb 1, 2017
 ## Updated Components
 
 -	Changelog.md 	(Captain)
-  - Added changelog.md file and formatted it
+- Added changelog.md file and formatted it
+- added first.php controller and view, fixes issue with 'first' link in nav bar not working correctly (Ryan Stoppler)
+
