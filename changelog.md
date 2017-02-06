@@ -41,6 +41,11 @@ Release Date: Feb 5, 2017
 
   - Fixed Issue #5 by:
 	- Added new routing rule: 'lock/em/up' -> 'welcome/shucks'	(Captain)
+	- Added function: 'shucks' in 'Welcome.php'					(Captain)
+  - Fixed Issue #7 by:
+	- Created directory: 'data' same folder level as 'public'	(Captain)
+	- Added image: 'surprise.jpg' in 'data' folder				(Captain)
+	- Added new routing rulse to 'routes.php'					(Captain)
 	- Added function: 'shucks' in 'Welcome.php'			(Captain)
   - Fixed Issue #7 by:
 	- Created directory: 'data' same folder level as 'public'	(Captain)
